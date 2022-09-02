@@ -36,3 +36,7 @@ $ ./download.sh
 ## Notice 
 
 REMEMBER TO MAKE A BACKUP OF YOUR OLDFILE  
+
+## Other Archlinux Configreation
+
+Refer to [archlinux 简明指南](https://arch.icekylin.online/)
