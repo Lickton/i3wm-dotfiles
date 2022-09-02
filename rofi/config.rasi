@@ -1,0 +1,9 @@
+configuration {
+    modi: "window,combi,ssh,drun,run,windowcd,keys";
+	font: "Fira Code Nerd Font 14";
+	show-icons: true;
+    icon-theme: "Tela-circle";
+    displa-drun: "App";
+}
+//@theme "nord-light"
+@theme "/usr/share/rofi/themes/Adapta-Nokto.rasi"

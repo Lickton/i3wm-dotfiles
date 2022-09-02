@@ -191,22 +191,6 @@ mode "resize" {
         bindsym $mod+r mode "default"
 }
 
-# xrandr Manual management of external displays
-# Set the shotcuts amd what they do
-# set $mode_display Ext Screen (d) DP-0 ON, (e) eDP-1-1 ON, (b) both
-# mode "$mod_display" {
-#    bindsym d exec --no-startup-id ~/i3wm-config/DP-0.sh, mode "default"
-#    bindsym e exec --no-startup-id ~/i3wm-config/eDP-1-1.sh, mode "default"
-#    bindsym b exec --no-startup-id ~/i3wm-config/Both.sh, mode "default"
-
-    # back to normal: Enter or Escape
-#    bindsym Return mode "default"
-#    bindsym Escape mode "default"
-#   # Declare here the shortcut to bring the display selection menu
-#    bindsym $mod+x mode "$mode_display"
-# }
-
-
 bindsym $mod+r mode "resize"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
@@ -221,7 +205,6 @@ bar {
 bindsym $mod+shift+x exec i3lock
 bindsym $mod+Control+a exec flameshot gui
 bindsym $mod+x [urgent=latest] focus 
-bindsym $mod+m exec --no-startup-id ~/i3wm-config/mount.sh
 
 # round conner 
 border_radius 5
@@ -234,9 +217,8 @@ default_border pixel 0
 default_floating_border pixel 5
 
 # start when login
-#exec /opt/apps/com.qq.im.deepin/files/run.sh
 # wallpaper
-exec_always --no-startup-id feh --bg-scale /home/lickton/Pictures/'wallhaven-k7vm66.jpg'
+exec_always --no-startup-id feh --bg-scale ~/Pictures/'wallhaven-k7vm66.jpg'
 exec --no-startup-id calibre
 exec --no-startup-id fcitx5 -d
 exec --no-startup-id optimus-manager
