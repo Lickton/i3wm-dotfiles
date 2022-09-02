@@ -14,7 +14,7 @@
 `pulseaudio-bluetooth`: bluetooth headset support  
 `nm-applet`: network management GUI  
 `flameshot`: screen shot  
-`picom`: standalone compositor for Xorg  
+`picom-ibhagwan-git`: standalone compositor for Xorg  
 
 ### Fonts
 
